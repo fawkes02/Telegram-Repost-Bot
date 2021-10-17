@@ -50,6 +50,7 @@ strings:
   repost_alert: "Hey du Geringverdiener, das war ein Repost!"
   repost_alert: "Kollege, das war jetzt ein Repost!
   first_repost_callout: "Schau, hier."
+  final_repost_callout: "Ich sehe alles, {name}."
 
   # one of these will be chosen at random for each message in a repost set, also part of the verbose style
   intermediary_callouts: [
