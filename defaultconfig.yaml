@@ -48,7 +48,6 @@ strings:
 
   # these three strings are for the verbose callout response style
   repost_alert: "Hey du Geringverdiener, das war ein Repost!"
-  repost_alert: "Kollege, das war jetzt ein Repost!
   first_repost_callout: "Schau, hier."
   final_repost_callout: "Ich sehe alles, {name}."
 
@@ -65,7 +64,7 @@ strings:
 
   # these next two string sets are for the single message callout style (singular)
   single_callout_one_repost_options: [
-      "Hey {name}: Das ist ein Repost. Zeigt mit dem Finger auf den Absender und lacht denjenigen aus."
+      "Hey {name} du Geringverdiener: Das war ein Repost. Zeigt mit dem Finger auf den Absender und lacht denjenigen aus."
   ]
 
   single_callout_x_num_reposts_options: [
