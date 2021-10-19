@@ -47,7 +47,20 @@ strings:
   stats_command_reply: "Unique pictures posted: {num_unique_images:n}\nTotal image reposts: {num_image_reposts:n}\nUnique URLs posted: {num_unique_urls:n}\nTotal URL reposts: {num_url_reposts:n}"
 
   # these three strings are for the verbose callout response style
-  repost_alert: "Hey du Geringverdiener, das war ein Repost!"
+  repost_alert: [
+      "Hey du Geringverdiener, das war ein REPOST!",
+      "Wer seine Hausaufgaben nicht macht, fährt auch keinen Jetski! Nun mach deine Hausaufgaben und reposte weniger.",
+      "Bist du gehirnkrank? Das war ein Repost!",
+      "Reposts sind manchmal schon ein kleines Luxusproblem und das war einer.",
+      "Lieber saudoof und reich, als ein Reposter zu sein.",
+      "Ich bin die Stimme der Vernunft und du ein Geringverdiener. REPOST!",
+      "REPOST! Ich buchstabiere es für dich - R-E-P-O-S-T.",
+      "Konntest du dir keine weiteren Bilder leisten und machst deshalb einen Repost? Geringverdiener.",
+      "Champagner macht keine Rotweinflecken, aber du einen Repost.",
+      "Sogar aus Saint-Tropez sehe ich, dass das ein Repost war.",
+      "Würdest du weniger Reposten, hättest du auch einen Privatjet. REPOST!",
+      "Ich wäre jetzt lieber auf Ibiza, statt dir zu sagen, dass das ein Repost war.",
+  ]
   first_repost_callout: "Schau, hier."
   final_repost_callout: "Ich sehe alles, {name}."
 
