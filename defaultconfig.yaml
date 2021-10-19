@@ -26,7 +26,7 @@ strings:
   private_chat: "I don't care about reposts just between us. I only check in group chats. Add me to a group."
   private_chat_toggle: "I don't track reposts in private chats."
 
-  help_command: "I'm {name}. I analyze the pictures and URLs you send and call out reposts.\n
+  help_command: "Ich bin {name}. Ich analysiere gesendete Bilder und Links und rufe die Reposts aus.\n
    I store the message id, and hashed versions of the URLs and pictures you send. GIFs and videos are not tracked.\n\n
    /toggle [url | picture] - Toggles whether I track URLs or pictures. You can toggle both at the same time with /toggle url picture. Reposts of untracked types will still be logged, but not called out.\n
    /settings - Display the current tracking settings.\n
@@ -58,10 +58,25 @@ strings:
       "Konntest du dir keine weiteren Bilder leisten und machst deshalb einen Repost? Geringverdiener.",
       "Champagner macht keine Rotweinflecken, aber du einen Repost.",
       "Sogar aus Saint-Tropez sehe ich, dass das ein Repost war.",
-      "Würdest du weniger Reposten, hättest du auch einen Privatjet. REPOST!",
+      "Würdest du weniger reposten, hättest du auch einen Privatjet. REPOST!",
       "Ich wäre jetzt lieber auf Ibiza, statt dir zu sagen, dass das ein Repost war.",
+      "Selbst Carmen sieht, dass das ein Repost war.",
+      "Das ist zwar kein Bild meiner Carmen, aber es war ein Repost.",
+      "Würde ich für jeden Repost 1 Euro bekommen, hätte ich schon längst meinen zweiten Privatjet.",
+      "Soll ich dir meine Brille leihen, damit du auch siehst, dass das ein Repost war?",
+      "Ich hätte mehr Geld verlangen sollen für diese Arbeit. Das war ein Repost!",
+      "Ibiza, Saint-Tropez, Monaco und dann lande ich in dieser Gruppe und muss diesen Repost sehen.",
+      "Ich sehe was, was du nicht siehst und das ist ein Repost.",
+      "Carmen? Siehst du auch diesen Repost?",
+      "Jetzt habe ich wegen deinem Repost meinen Champagner verschüttet.",
+      "Wir haben ein Wort dafür, was du eben getan hast und das nennt sich Repost.",
+      "Ich habe zwar nur einen Hauptschulabschluss, aber selbst ich sehe, dass das ein Repost war.",
+      "Durch diesen Repost habe ich keine steuerlichen Vorteile. Weg damit.",
+      "Die Carmen ertrage ich, aber diesen Repost nicht.",
+      "Wer hat die Arbeit gemacht? Der Robert hat die Arbeit gemacht. REPOST!",
+      "Bei dem Repost fliegen mir die Eier weg.",
   ]
-  first_repost_callout: "Schau, hier."
+  first_repost_callout: "Hier wurde es bereits gepostet. Schau!"
   final_repost_callout: "Ich sehe alles, {name}."
 
   # one of these will be chosen at random for each message in a repost set, also part of the verbose style
