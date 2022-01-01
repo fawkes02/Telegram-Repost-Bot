@@ -27,13 +27,14 @@ strings:
   private_chat_toggle: "I don't track reposts in private chats."
 
   help_command: "Ich bin {name}. Ich analysiere gesendete Bilder und Links und rufe die Reposts aus.\n
-   I store the message id, and hashed versions of the URLs and pictures you send. GIFs and videos are not tracked.\n\n
-   /toggle [url | picture] - Toggles whether I track URLs or pictures. You can toggle both at the same time with /toggle url picture. Reposts of untracked types will still be logged, but not called out.\n
-   /settings - Display the current tracking settings.\n
-   /whitelist - Use this command while replying to the message containing a specific URL or picture you want to whitelist. Whitelisted items will still be logged, but I won't call reposts of it out.\n
-   /reset - Only group admins and the bot admin can call this command. Deletes all repost and whitelist data, resets tracking to defaults. This can't be undone.\n\n
-   /stats - Display number of unique images and URLs I have seen, and how many reposts of each. Note that the first time it is seen is not counted as a repost.\n\n
-   Flood protection is on a per-user-per-command basis, including calling out reposts. I will still track posts when being flooded, but will not call them out."
+    Hierfür erfasse und speichere ich die Nachricht-ID innerhalb der Gruppe und den Hash der gesendeten Links und Bilder. GIFs und Videos werden nicht erfasst.\n\n
+    /toggle [url | picture] - Um die Erfassung von Links oder Bildern ein bzw. auszuschalten. Mit /toggle url picture kann beides mit nur einem Befehl umgeschalten werden. Reposts vom nicht erfassten Typ werden trotzdem erfasst, aber nicht als Repost ausgerufen.\n
+    /settings - Zeigt die aktuellen Tracking-Einstellungen an.\n
+    /whitelist - Benutze diesen Befehl als Antwort auf einen spezifischen Link oder ein spezifisches Bild, um den Repost dieser zu erlauben. Erlaubte Reposts werden weiterhin erfasst, aber nicht ausgerufen.\n
+    /reset - Kann nur von Gruppenadmins und dem Bot-Admin benutzt werden. Alle erfassten Reposts und Whitelist-Einträge werden unwiderruflich entfernt und die Erfassung wird zurückgesetzt.\n
+    /stats - Zeigt die Anzahl einzigartiger Bilder und Links, sowie die Anzahl der Reposts. Als Repost gilt alles, was vom Bot wiederholt erfasst wurde.\n\n
+    Im Falle eines Reposts, markiert der Bot in der 1. Nachricht den Repost und in der 2. Nachricht den Originalpost. Hier sollte der in der 1. Nachricht markierte Post entfernt werden und keines falls der in der 2. Nachricht markierte Originalpost.\n
+    Sollte der Originalpost dennoch entfernt werden, ruft der Bot nur mit der 1. Nachricht den Repost aus, zeigt aber keinen Originalpost mehr an. Hier darf der in der Nachricht markierte "Repost" stehen gelassen werden."
 
   invalid_whitelist_reply: "Use /whitelist while replying to a message so I can whitelist what's in it."
   removed_from_whitelist: "I'll start tracking reposts of that again."
@@ -75,6 +76,7 @@ strings:
       "Die Carmen ertrage ich, aber diesen Repost nicht.",
       "Wer hat die Arbeit gemacht? Der Robert hat die Arbeit gemacht. REPOST!",
       "Bei dem Repost fliegen mir die Eier weg.",
+      "Das habe ich schonmal gesehen. Weg damit.",
   ]
   first_repost_callout: "Hier wurde es bereits gepostet. Schau!"
   final_repost_callout: "Ich sehe alles, {name}."
