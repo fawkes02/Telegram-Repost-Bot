@@ -77,6 +77,8 @@ strings:
       "Wer hat die Arbeit gemacht? Der Robert hat die Arbeit gemacht. REPOST!",
       "Bei dem Repost fliegen mir die Eier weg.",
       "Das habe ich schonmal gesehen. Weg damit.",
+      "Diesen Geruch vom Repost rieche ich kilometerweit.",
+      "Machst du noch einmal einen Repost, bekommst du einen Einlauf.",
   ]
   first_repost_callout: "Hier wurde es bereits gepostet. Schau!"
   final_repost_callout: "Ich sehe alles, {name}."
