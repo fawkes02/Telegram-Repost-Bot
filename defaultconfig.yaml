@@ -79,6 +79,7 @@ strings:
       "Das habe ich schonmal gesehen. Weg damit.",
       "Diesen Geruch vom Repost rieche ich kilometerweit.",
       "Machst du noch einmal einen Repost, bekommst du einen Einlauf.",
+      "Kennst du schon die Reaktionsemojis? Statt zu reposten, könntest du ja öfter diese Funktion nutzen! Win-Win.",
   ]
   first_repost_callout: "Hier wurde es bereits gepostet. Schau!"
   final_repost_callout: "Ich sehe alles, {name}."
