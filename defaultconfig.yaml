@@ -82,6 +82,7 @@ strings:
       "Kennst du schon die Reaktionsemojis? Statt zu reposten, könntest du ja öfter diese Funktion nutzen! Win-Win.",
       "Ich habe Zeit für meine Carmen, aber nicht, um deine Reposts anzuschauen.",
       "Ich würde lieber mit meiner Carmen im neuen Privatjet düsen, statt mir deine Reposts anzuschauen.",
+      
   ]
   first_repost_callout: "Hier wurde es bereits gepostet. Schau!"
   final_repost_callout: "Ich sehe alles, {name}."
